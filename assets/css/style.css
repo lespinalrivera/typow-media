@@ -474,11 +474,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-header {
+.home-header header {
   width: 135px;
   background: white;
-  padding: 30px 0; }
-  header .logo {
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .home-header header .logo {
     overflow: hidden;
     text-indent: 101%;
-    white-space: nowrap; }
+    white-space: nowrap;
+    background-image: url(/assets/img/logo-typow-media.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: max-height;
+    padding: 0;
+    margin: 0; }
+  .home-header header .site-nav ul {
+    list-style: none;
+    margin: 30px 0;
+    padding: 0 20px 0 0;
+    text-align: right; }
+  .home-header header .site-nav li {
+    margin-bottom: 22px; }
+    .home-header header .site-nav li:last-child {
+      margin-bottom: 0; }
+
+.home-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh; }

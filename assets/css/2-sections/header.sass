@@ -1,7 +1,31 @@
-header
+.home-header header
   width: 135px
   background: white
   padding: 30px 0
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
   .logo
     +hide-text
+    background:
+      image: url(/assets/img/logo-typow-media.svg)
+      repeat: no-repeat
+      position: center
+      size: contain
+    height: max-height
+    padding: 0
+    margin: 0
+
+  .site-nav
+    ul
+      list-style: none
+      margin: 30px 0
+      padding: 0 20px 0 0
+      text-align: right
+
+    li
+      margin-bottom: 22px
+
+      &:last-child
+        margin-bottom: 0
