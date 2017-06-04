@@ -478,3 +478,7 @@ header {
   width: 135px;
   background: white;
   padding: 30px 0; }
+  header .logo {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap; }
