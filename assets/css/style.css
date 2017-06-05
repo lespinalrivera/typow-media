@@ -499,15 +499,21 @@ body {
     height: max-height;
     padding: 0;
     margin: 0; }
-  .home-header header .site-nav ul {
-    list-style: none;
-    margin: 30px 0;
-    padding: 0 20px 0 0;
-    text-align: right; }
-  .home-header header .site-nav li {
-    margin-bottom: 22px; }
-    .home-header header .site-nav li:last-child {
-      margin-bottom: 0; }
+  .home-header header .c-nav--trigger {
+    width: 50px;
+    height: auto;
+    background: #a2a2a2; }
+  .home-header header .site-nav {
+    display: none; }
+    .home-header header .site-nav ul {
+      list-style: none;
+      margin: 30px 0;
+      padding: 0 20px 0 0;
+      text-align: right; }
+    .home-header header .site-nav li {
+      margin-bottom: 22px; }
+      .home-header header .site-nav li:last-child {
+        margin-bottom: 0; }
 
 .home-header {
   display: -webkit-box;
